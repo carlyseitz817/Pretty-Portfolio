@@ -17,7 +17,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
     $smtp_username = 'carlyseitz817@gmail.com';        // SMTP username
     $smtp_password = 'FuckP@$$w0rdstealers682549';        // SMTP password
 
-    $mail = new PHPMailer();
+    $mail = new PHPMailer(true);
 
     if ($smtp) {
         $mail->IsSMTP();
