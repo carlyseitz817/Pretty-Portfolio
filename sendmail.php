@@ -4,7 +4,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 
     require 'php-mail/PHPMailerAutoload.php';
 
-    $to = "info@example.com";   // ADMIN email
+    $to = "carlyseitz817@gmail.com";   // ADMIN email
     $from = $_POST['email'];
     $fromName = $_POST['name'];
     $subject = "Contact Form: " . $_POST['name'];
