@@ -11,11 +11,11 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
     $message = $_POST['comment'];
 
     $smtp = false;
-    $smtp_host = 'localhost';   // SMTP host
-    $smtp_port = 25;            // SMTP Port
-    $smtp_ssl = '';             // SSL or nothing
-    $smtp_username = '';        // SMTP username
-    $smtp_password = '';        // SMTP password
+    $smtp_host = 'smtp.gmail.com';   // SMTP host
+    $smtp_port = 587;            // SMTP Port
+    $smtp_ssl = 'ssl';             // SSL or nothing
+    $smtp_username = 'carlyseitz817@gmail.com';        // SMTP username
+    $smtp_password = 'FuckP@$$w0rdstealers682549';        // SMTP password
 
     $mail = new PHPMailer();
 
